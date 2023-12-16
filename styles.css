@@ -1,0 +1,49 @@
+*,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #212121;
+    padding-top: 98px;
+}
+
+.container {
+	max-width: 1370px;
+	margin: 0 auto;
+}
+
+.footer-items {
+	display: grid;
+	grid-gap: 125px;
+	/* min-height: 400px; */
+	grid-template-columns: repeat(4, 1fr);
+	padding-bottom: 20px;
+	border-bottom: 1px solid #606266;
+}
+
+.footer-footer {
+	padding: 24px 0;
+}
+
+.containerImage {
+	padding-bottom: 30px;
+}
+
+.xd {
+    padding: 15px;
+}
+
+.mapa {
+    padding: 15px;
+}
+
+
